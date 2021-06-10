@@ -1,1 +1,0 @@
-# sanyadesign.github.io
