@@ -59,22 +59,22 @@
 }
 
 .slider-item-1 {
-    background-image: url(/slider/slide-1.jpg);
+    background-image: url(slider/slide-1.jpg);
 }
 .slider-item-2 {
-    background-image: url(/slider/slide-2.jpg);
+    background-image: url(slider/slide-2.jpg);
 }
 .slider-item-3 {
-    background-image: url(/slider/slide-3.jpg);
+    background-image: url(slider/slide-3.jpg);
 }
 .slider-item-4 {
-    background-image: url(/slider/slide-4.jpg);
+    background-image: url(slider/slide-4.jpg);
 }
 .slider-item-5 {
-    background-image: url(/slider/slide-5.jpg);
+    background-image: url(slider/slide-5.jpg);
 }
 .slider-item-6 {
-    background-image: url(/slider/slide-6.jpg);
+    background-image: url(slider/slide-6.jpg);
 }
 
 @media (max-width: 768px) {
