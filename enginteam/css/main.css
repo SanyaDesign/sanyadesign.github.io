@@ -141,7 +141,7 @@ html {
   width: 1.125em;
   height: 1.125em;
   content: "";
-  background-image: url(/image/cancel.svg);
+  background-image: url(image/cancel.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 60% 60%;
