@@ -32,5 +32,5 @@ $('.btn-callback-mobile').click(function() {
 });
 
 jQuery(function($){
-    $(".contact-form__input_tel").mask("+9 (999) 999-99-99",{placeholder:"_"});
+    $(".contact-form__input_tel").mask("+7 (999) 999-99-99",{placeholder:"_"});
  });
