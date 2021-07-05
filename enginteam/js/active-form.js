@@ -1,4 +1,4 @@
-$('.btn-callback').click(function(e) {
+$('.btn-callback--active').click(function(e) {
     e.preventDefault();
     $('.form-callback').fadeIn(800).css({display:'flex'});
     $('html').addClass('no-scroll');
