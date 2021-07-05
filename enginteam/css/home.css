@@ -1,4 +1,9 @@
-.header__logo, .nav__list, .footer, .footer_contacts, .footer__email, .footer__map, .social {
+.header__logo,
+.nav__list,
+.footer,
+.footer_contacts,
+.footer__email,
+.footer__map, .social {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -18,6 +23,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   font-family: 'Montserrat', sans-serif;
   padding: 2.34em 5em 2.34em 4em;
+  z-index: 1;
 }
 
 .btn-mobile {
@@ -86,15 +92,6 @@ body {
 }
 .btn-callback:hover {
   background-color: rgba(255, 255, 255, 0.2);
-}
-
-.slider {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../image/header-image.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .footer {

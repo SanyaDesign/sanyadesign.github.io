@@ -82,3 +82,168 @@ html {
 .loaded .preloader {
   display: none;
 }
+.callback-mobile,
+.form-callback {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.callback-mobile {
+  padding: 1em;
+}
+
+.callback-mobile-item,
+.contact-form {
+  position: relative;
+  max-width: 400px;
+  background-color: #393939;
+  padding: 0 30px 30px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, .5);
+}
+
+.callback-mobile-item {
+  padding: 0 15px 30px;
+  text-align: center;
+}
+
+.contact-form__title {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+  margin: 0 -30px 30px;
+  padding: 1em 2em;
+  width: calc(100% + 60px);
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #222;
+  color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  display: block;
+  top: 0.6em;
+  right: 0.6em;
+  width: 1.125em;
+  height: 1.125em;
+  content: "";
+  background-image: url(/image/cancel.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.contact-form__description {
+  display: none;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.contact-form__input-wrapper {
+  margin-bottom: 2em;
+}
+
+.contact-form__input {
+  width: 100%;
+  height: 3.5em;
+  padding: 0 1em;
+  border: 1px solid #444;
+  background-color: #292929;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact-form__error {
+  font-size: .875rem;
+}
+
+.contact-form__button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 0.84em 2.8em;
+  transition: 0.6s ease;
+  -webkit-appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-form__button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.call-btn {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1em 1.34em;
+  margin-bottom: 2em;
+  transition: 0.6s ease;
+}
+.call-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-callback-mobile {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1em 1.34em;
+  cursor: pointer;
+  margin-bottom: 2em;
+  transition: 0.6s ease;
+}
+.btn-callback-mobile:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 425px) {
+  .form-callback {
+      padding: 0.6em;
+  }
+  .contact-form {
+      max-height: 100%;
+      padding: 0 15px 15px;
+  }
+  .contact-form__title {
+      margin: 0 -15px 30px;
+      padding: 15px 30px;
+      width: calc(100% + 30px);
+      font-size: 1.125rem;
+  }
+}

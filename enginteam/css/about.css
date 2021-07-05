@@ -1,4 +1,9 @@
-.header__logo, .nav__list, .footer, .footer_contacts, .footer__email, .footer__map, .social {
+.header__logo,
+.nav__list,
+.footer,
+.footer_contacts,
+.footer__email,
+.footer__map, .social {
   display: flex;
   align-items: center;
   justify-content: flex-start;

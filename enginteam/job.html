@@ -13,7 +13,6 @@
     <meta name="theme-color" content="#ffffff">
     <title>Engineers</title>
     <link rel="stylesheet" href="css/normalize.min.css">
-    <!-- <link rel="stylesheet" href="css/preloader.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/job.css">
 </head>
@@ -69,7 +68,7 @@
                             <li class="vacancy__text-item">разработка документов по обслуживанию, ремонту и диагностике высокотехнологичного оборудования,</li>
                             <li class="vacancy__text-item">ведение учета единиц высокотехнологичного оборудования.</li>
                         </ul>
-                        <a class="btn-job-callback"href="">откликнуться</a>
+                        <a class="btn-job-callback  btn-callback--active"href="">откликнуться</a>
                     </div>
                     <div class="job__vacancy-item">
                         <h3 class="title-h3">программист</h3>
@@ -80,7 +79,7 @@
                             <li class="vacancy__text-item">Вы готовы развивать чужой код;</li>
                             <li class="vacancy__text-item">Вы умеете работать в команде.</li>
                         </ul>
-                        <a class="btn-job-callback"href="">откликнуться</a>
+                        <a class="btn-job-callback  btn-callback--active"href="">откликнуться</a>
                     </div>
                 </div>
             </div>
@@ -99,6 +98,48 @@
             <li class="social__item"><a class="social__yb" href=""></a></li>
         </ul>
     </footer>
-    <script src="js/preloader.js"></script>
+
+    <div class="form-callback">
+        <form class="contact-form" id="contact-form_1" method="POST" enctype="multipart/form-data">
+            <p class="contact-form__title">
+                <span class="close-btn"></span>
+                Оставьте заявку и мы Вам перезвоним
+            </p>
+            <p class="contact-form__description"></p>
+            <div class="contact-form__input-wrapper">
+              <input name="name" type="text" class="contact-form__input contact-form__input_name" placeholder="Введите ваше имя">
+              <div class="contact-form__error contact-form__error_name"></div>
+            </div>
+                       
+            <div class="contact-form__input-wrapper">
+              <input name="tel" type="tel" class="contact-form__input contact-form__input_tel" placeholder="Введите ваш телефон">
+              <div class="contact-form__error contact-form__error_tel"></div>
+            </div>
+           
+            <!-- <div class="contact-form__input-wrapper"> 
+               <input name="email" type="email" class="contact-form__input contact-form__input_email" placeholder="Введите ваш email">
+               <div class="contact-form__error contact-form__error_email"></div>
+            </div> -->
+           
+            <button class="contact-form__button" type="submit">Отправить</button>
+          </form>
+    </div>
+    
+    <div class="callback-mobile">
+        <div class="callback-mobile-item">
+            <p class="contact-form__title">
+                <span class="close-btn"></span>
+                Оставьте заявку или позвоните нам
+            </p>
+            <a class="call-btn" href="tel:+79624055671">Позвонить</a>
+            <button class="btn-callback-mobile" type="button">Заказать звонок</button>
+        </div>
+    </div>
+
+    <script src="/js/preloader.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/jquery.maskedinput.min.js"></script>
+    <script src="/js/active-form.js"></script>
+    <script src="/mail/js/mail.js"></script>
 </body>
 </html>
